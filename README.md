@@ -3,5 +3,5 @@
 Real-time interaction using the Myo band 
 
 **What It Does**  
-  Pulls data from the Twitter API, allowing two users to automatically follow with a mutual high-five. 
+  Uses iOS, Fabric, and Myo to allow two users to automatically follow each other on Twitter with a mutual high-five. 
 
