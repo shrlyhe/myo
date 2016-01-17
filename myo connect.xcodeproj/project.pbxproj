@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8C289651C4B43980080D7C6 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C289621C4B43980080D7C6 /* TwitterKit.framework */; };
+		D8C289661C4B43980080D7C6 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C289631C4B43980080D7C6 /* Fabric.framework */; };
+		D8C289671C4B43980080D7C6 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C289641C4B43980080D7C6 /* TwitterCore.framework */; };
 		E1A440F81C4AD7BE00862E84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A440F71C4AD7BE00862E84 /* AppDelegate.swift */; };
 		E1A440FA1C4AD7BE00862E84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A440F91C4AD7BE00862E84 /* ViewController.swift */; };
 		E1A440FD1C4AD7BE00862E84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A440FB1C4AD7BE00862E84 /* Main.storyboard */; };
@@ -15,10 +18,7 @@
 		E1A441051C4AD7BE00862E84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A441031C4AD7BE00862E84 /* LaunchScreen.storyboard */; };
 		E1A441101C4AD7BE00862E84 /* myo_connectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A4410F1C4AD7BE00862E84 /* myo_connectTests.swift */; };
 		E1A4411B1C4AD7BE00862E84 /* myo_connectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A4411A1C4AD7BE00862E84 /* myo_connectUITests.swift */; };
-		E1C55BD91C4AE3F900455059 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C55BD51C4AE3F900455059 /* Fabric.framework */; };
-		E1C55BDA1C4AE3F900455059 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C55BD61C4AE3F900455059 /* TwitterKit.framework */; };
 		E1C55BDB1C4AE3F900455059 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E1C55BD71C4AE3F900455059 /* TwitterKitResources.bundle */; };
-		E1C55BDC1C4AE3F900455059 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C55BD81C4AE3F900455059 /* TwitterCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D8C289621C4B43980080D7C6 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		D8C289631C4B43980080D7C6 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		D8C289641C4B43980080D7C6 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
 		E1A440F41C4AD7BE00862E84 /* myo connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "myo connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A440F71C4AD7BE00862E84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1A440F91C4AD7BE00862E84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,10 +56,7 @@
 		E1A441161C4AD7BE00862E84 /* myo connectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "myo connectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A4411A1C4AD7BE00862E84 /* myo_connectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myo_connectUITests.swift; sourceTree = "<group>"; };
 		E1A4411C1C4AD7BE00862E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1C55BD51C4AE3F900455059 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
-		E1C55BD61C4AE3F900455059 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
 		E1C55BD71C4AE3F900455059 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TwitterKitResources.bundle; sourceTree = "<group>"; };
-		E1C55BD81C4AE3F900455059 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +64,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1C55BD91C4AE3F900455059 /* Fabric.framework in Frameworks */,
-				E1C55BDC1C4AE3F900455059 /* TwitterCore.framework in Frameworks */,
-				E1C55BDA1C4AE3F900455059 /* TwitterKit.framework in Frameworks */,
+				D8C289671C4B43980080D7C6 /* TwitterCore.framework in Frameworks */,
+				D8C289661C4B43980080D7C6 /* Fabric.framework in Frameworks */,
+				D8C289651C4B43980080D7C6 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +90,9 @@
 		E1A440EB1C4AD7BE00862E84 = {
 			isa = PBXGroup;
 			children = (
+				D8C289621C4B43980080D7C6 /* TwitterKit.framework */,
+				D8C289631C4B43980080D7C6 /* Fabric.framework */,
+				D8C289641C4B43980080D7C6 /* TwitterCore.framework */,
 				E1A440F61C4AD7BE00862E84 /* myo connect */,
 				E1A4410E1C4AD7BE00862E84 /* myo connectTests */,
 				E1A441191C4AD7BE00862E84 /* myo connectUITests */,
@@ -110,10 +113,7 @@
 		E1A440F61C4AD7BE00862E84 /* myo connect */ = {
 			isa = PBXGroup;
 			children = (
-				E1C55BD51C4AE3F900455059 /* Fabric.framework */,
-				E1C55BD61C4AE3F900455059 /* TwitterKit.framework */,
 				E1C55BD71C4AE3F900455059 /* TwitterKitResources.bundle */,
-				E1C55BD81C4AE3F900455059 /* TwitterCore.framework */,
 				E1A440F71C4AD7BE00862E84 /* AppDelegate.swift */,
 				E1A440F91C4AD7BE00862E84 /* ViewController.swift */,
 				E1A440FB1C4AD7BE00862E84 /* Main.storyboard */,
@@ -440,6 +440,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/myo",
 					connect,
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "myo connect/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -456,6 +457,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/myo",
 					connect,
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "myo connect/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -34,12 +34,12 @@ class ViewController: UIViewController {
     }
     
     override func viewDidAppear(animated: Bool) {
-        let homeViewControllerObejct = self.storyboard?.instantiateViewControllerWithIdentifier("HomeViewController") as? HomeViewController
+        let homeViewControllerObject = self.storyboard?.instantiateViewControllerWithIdentifier("HomeViewController") as? HomeViewController
 
         Twitter.sharedInstance().logInWithCompletion { session, error in
             if (session != nil) {
                 print("signed in as \(session!.userName)");
-                self.navigationController?.pushViewController(homeViewControllerObejct!, animated: true)
+                self.navigationController?.pushViewController(homeViewControllerObject!, animated: true)
             } else {
                 print("error: \(error!.localizedDescription)");
             }
